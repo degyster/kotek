@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример сайта с прокручиваемыми страницами</title>
+  <!-- Подключение CSS Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    /* Добавляем прокрутку колесиком мыши */
+    html {
+      overflow-y: scroll;
+    }
+
+    /* Увеличиваем расстояние между страницами */
+    section {
+      margin-bottom: 150px;
+    }
+
+    /* Увеличиваем отступ от хедера до первого раздела */
+    body {
+      padding-top: 150px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Навигационное меню -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="https://flyclipart.com/thumb2/cat-icon-noto-emoji-animals-nature-iconset-google-102939.png" alt="Логотип" width="30" height="30" class="d-inline-block align-top">
+      Котеки
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">Котяты самые милые существа</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">Еще больше котеков!!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Почему кошечки захватыает планету?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section4">Купеть котека Meow🐈</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Содержимое страниц -->
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <section id="section1" class="py-5">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col text-center">
+                <h1>Котяты самые милые существа</h1>
+                <p class="lead">Кошечки - самые милые создания на планете! Они такие крутые и мягкие, что невозможно устоять перед их обаянием.</p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col">
+                <img src="https://i.ytimg.com/vi/mRGF0NmkRCw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgXChUMA8=&amp;rs=AOn4CLB_U_zhV2ZsxwccE3Uvuu4kiTrPXw" alt="Изображение" class="img-fluid">
+              </div>
+              <div class="col">
+                <p>Кошечки - это не только милые создания, но и верные друзья. Они могут поднять настроение своими игривыми выходками и нежными ласками.</p>
+                <p>Их мягкая шерсть и нежные лапки просто созданы для того, чтобы их гладить. Кошечки способны принести много радости и умиротворения в дом, они истинные источники позитивной энергии.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <section id="section2" class="py-5">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col text-center">
+                <h1>Еще больше котеков!!</h1>
+                <p class="lead">Мелкий текст раздела 2 про крутых кошечек</p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col">
+                <p>Кошечки - это чудесные создания, которые умеют завоевывать сердца людей. Их независимый характер и нежность делают их идеальными домашними питомцами.</p>
+                <p>Они способны подарить бесконечное количество ласки и преданности. Кошечки умеют дарить радость своим присутствием и неповторимыми выражениями лица.</p>
+              </div>
+              <div class="col">
+                <img src="https://sun9-65.userapi.com/impg/w31smARIHGN-J7r9NrWE_i4vHOu6wbAq33bVUg/_Kur5X3rro4.jpg?size=485x392&quality=96&sign=9f4814f7ac2824cd3599dd27a190522d&type=album" alt="Изображение" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <section id="section3" class="py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <h1>Почему кошечки захватыает планету?</h1>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="https://i.pinimg.com/originals/fd/6b/92/fd6b92bf280a1b7edc347cd58c9eb034.jpg" alt="Изображение" class="card-img-top placeholder-img">
+                  <div class="card-body text-center">
+                    <h5 class="card-title placeholder-text">Причина 1</h5>
+                    <p class="card-text placeholder-text">Кошечки - лучшие спутники жизни. Они мягкие, ласковые и всегда готовы подарить вам свою любовь и преданность.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="https://metaratings.ru/upload/iblock/b48/b481d3d0e90bbfc33cd5ba1287c9c00f.jpg" alt="Изображение" class="card-img-top placeholder-img">
+                  <div class="card-body text-center">
+                    <h5 class="card-title placeholder-text">Причина 2</h5>
+                    <p class="card-text placeholder-text">Кошечки - настоящие хозяева вашего сердца. Они умеют быть нежными и игривыми одновременно, что делает их особенными и неповторимыми.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="https://sun9-32.userapi.com/impg/NCkCj32LnptNorrOwW22aYjXmIdEVKL_2MnQww/mmReMlsoU-4.jpg?size=1118x854&quality=96&sign=e202e739180ad24934609b93c9fbc567&c_uniq_tag=3tz-SSSZS2RH-fdfYIeyE8uxiCfM2K8AAA4SR1bmeZs&type=album" alt="Изображение" class="card-img-top placeholder-img">
+                  <div class="card-body text-center">
+                    <h5 class="card-title placeholder-text">Причина 3</h5>
+                    <p class="card-text placeholder-text">Кошечки - это источник счастья и умиротворения. Их присутствие снимает стресс и наполняет жизнь радостью и теплотой.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <section id="section4" class="py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <h1>Купеть котека Meow🐈</h1>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <form>
+                  <div class="form-group">
+                    <label for="inputName">Имя</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Введите ваше имя">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPhone">Телефон</label>
+                    <input type="tel" class="form-control" id="inputPhone" placeholder="Введите ваш номер телефона">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Введите ваш email">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Футер -->
+  <footer class="bg-dark text-white text-center py-4">
+    &copy; 2023 котекки права не защищены
+  </footer>
+
+  <!-- Подключение скриптов Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
